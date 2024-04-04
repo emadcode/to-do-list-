@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+        background-image: url('https://images8.alphacoders.com/379/379102.jpg');
+    
+    
+}
+
+.todo-container {
+    background: rgba(0, 0, 0, 0);
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.493);
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #efefef1f;
+}
+
+#todo-list li:last-child {
+    border-bottom: rgba(95, 158, 160, 0.164);
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+    border-bottom: rgba(95, 158, 160, 0.171);
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: rgba(128, 255, 0, 0.116);
+}
+.todo-input {
+    border-color: rgba(240, 248, 255, 0.055);
+}
+
